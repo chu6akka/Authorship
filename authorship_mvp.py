@@ -5,7 +5,6 @@ import dataclasses
 import re
 from collections import Counter
 from pathlib import Path
-from typing import Iterable
 
 WORD_RE = re.compile(r"[A-Za-zА-Яа-яЁё0-9_]+", re.UNICODE)
 SENT_SPLIT_RE = re.compile(r"(?<=[.!?])\s+")
